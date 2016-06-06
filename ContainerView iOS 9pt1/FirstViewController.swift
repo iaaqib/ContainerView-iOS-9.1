@@ -10,6 +10,10 @@ import UIKit
 
 class FirstViewController: UIViewController {
     var First:String?
+    
+    @IBOutlet weak var textField: UILabel!
+    
+    @IBOutlet weak var firstContainerTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         
